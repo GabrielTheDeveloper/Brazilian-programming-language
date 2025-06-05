@@ -5,24 +5,24 @@ class Rota {
         this.routes = routes;
     }
 
-    get(path, callback) {
-        this.routes.get(path, callback);
+    static get(path, callback) {
+        routes.get(path, callback);
     }
 
-    post(path, callback) {
-        this.routes.post(path, callback);
+    static post(path, callback) {
+        routes.post(path, callback);
     }
 
-    put(path, callback) {
-        this.routes.put(path, callback);
+    static put(path, callback) {
+        routes.put(path, callback);
     }
 
-    delete(path, callback) {
-        this.routes.delete(path, callback);
+    static delete(path, callback) {
+        routes.delete(path, callback);
     }
 
-    all(path, callback) {
-        this.routes.all(path, callback);
+    static all(path, callback) {
+        routes.all(path, callback);
     }
 }
 

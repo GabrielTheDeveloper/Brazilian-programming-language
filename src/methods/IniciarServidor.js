@@ -5,9 +5,6 @@ const IniciarServidor = (port, message) => {
 
     app.listen(port, () => {
         console.log(message);
-        if (message) {
-            console.log(message);
-        }
     })
 
 }
