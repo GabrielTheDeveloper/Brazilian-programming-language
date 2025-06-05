@@ -1,7 +1,3 @@
+const ExibirNoConsole = require('./src/methods/ExibirNoConsole');
 const Função = require('./src/methods/Função');
 
-Função(
-    'gabs',
-
-    console.log('Função executada com sucesso!'),
-)
